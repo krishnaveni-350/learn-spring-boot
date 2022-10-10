@@ -1,5 +1,5 @@
 # Base image containing Java runtime
-FROM openjdk:8-jdk-alpine
+FROM openjdk:17
 
 # Add the application's jar to the container
 ADD target/*.jar springboot-openshift.jar
